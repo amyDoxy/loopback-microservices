@@ -1,0 +1,12 @@
+{
+  "postgresDB": {
+    "host": "postgres",
+    "port": 5432,
+    "url": "",
+    "database": "postgres",
+    "password": "test",
+    "name": "postgresDB",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

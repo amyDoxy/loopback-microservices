@@ -1,0 +1,30 @@
+{
+  "name": "OrderHeader",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dPk": {
+      "type": "number",
+      "required": true
+    },
+    "sourceOrderNum": {
+      "type": "string"
+    },
+    "orderNum": {
+      "type": "string"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "inventoryOrgCode": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
